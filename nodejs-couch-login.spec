@@ -4,7 +4,7 @@
 
 Name:           %{?scl_prefix}nodejs-couch-login
 Version:        0.1.18
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        A module for doing logged-in requests to a couchdb server
 
 Group:          System Environment/Libraries
@@ -48,6 +48,9 @@ rm -rf %buildroot
 %doc README.md LICENSE
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.1.18-4
+- rebuilt
+
 * Tue Mar 04 2014 Tomas Hrcka <thrcka@redhat.com> - 0.1.18-3
 - Add missing nodejs_symlink_deps macro
 
